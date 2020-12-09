@@ -39,7 +39,7 @@ input[type="text"] {
 }
 input[type="submit"] {
   flex: 2;
-  background: slategray;
+  background: lightgreen;
   border: 1px solid slategray;
   cursor: pointer;
 }
