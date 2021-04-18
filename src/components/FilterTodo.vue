@@ -12,12 +12,14 @@
   </div>
 </template>
 <script>
+
 import { mapActions } from "vuex";
 export default {
   name: "FilterTodo",
   methods: mapActions(["filterTodos"]),
 };
 </script>
+
 <style scoped>
 select {
   margin-top: 20px;

@@ -10,6 +10,7 @@
   </div>
 </template>
 <script>
+
 import { mapActions } from "vuex";
 export default {
   name: "AddTodo",
@@ -27,6 +28,7 @@ export default {
   },
 };
 </script>
+
 <style scoped>
 form {
   display: flex;

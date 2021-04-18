@@ -6,7 +6,7 @@
     <span><span class="complete-box"></span> =Complete </span>
     <div class="todos">
       <div
-        @dblclick="onDblClick(todo)"
+        @click="onClick(todo)"
         v-for="todo in allTodos"
         :key="todo.id"
         class="todo"
@@ -19,12 +19,13 @@
   </div>
 </template>
 <script>
+
 import { mapGetters, mapActions } from "vuex";
 export default {
   name: "Todos",
   methods: {
     ...mapActions(["fetchTodos", "deletTodo", "updateTodo"]),
-    onDblClick(todo) {
+    onClick(todo) {
       const update = {
         id: todo.id,
         title: todo.title,
@@ -33,12 +34,14 @@ export default {
       this.updateTodo(update);
     },
   },
+
   computed: mapGetters(["allTodos"]),
   created() {
     this.fetchTodos();
   },
 };
 </script>
+
 <style scoped>
 .todos {
   display: grid;

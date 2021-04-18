@@ -1,30 +1,15 @@
-## to_vuex product list
-### List products with vuex api, delete, filter with selected, change the background color of the product by double clicking
-### I am sharing the open source link of the project here, too.
+## Vuex Product List
+Using vue and vuex, I made a small project where modifications can be made on listing API data.This project can list data received from an API, add items to these data, and filter these data by dropdown by number.
 https://practical-sinoussi-669544.netlify.app/
+> ### Project [Live Demo]()  
 
-![bandicam-2020-12-25-20-35-17-953](https://user-images.githubusercontent.com/67821216/103140066-5612c500-46f3-11eb-8cf7-8b2f998a1413.gif)
+## Screenshot Page
+
+## Technologies
+- axios version : 0.21.0
+- core-js version : 3.6.5
+- vue version : 2.6.11
+- vuex: 3.6.0
 
 ## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
